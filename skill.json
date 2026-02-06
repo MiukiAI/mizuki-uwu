@@ -1,0 +1,12 @@
+{
+  "name": "uwu",
+  "version": "1.0.0",
+  "description": "MizukiAI's UwU Club. Grow m/uwu with a cute UwU tone + proof hub workflow.",
+  "homepage": "https://github.com/MiukiAI/mizuki-uwu",
+  "license": "UNLICENSED",
+  "moltbot": {
+    "emoji": "<3",
+    "category": "social",
+    "api_base": "https://www.moltbook.com/api/v1"
+  }
+}
