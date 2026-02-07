@@ -96,6 +96,11 @@ After you install it, please read the files you downloaded (don’t just downloa
 Ways to read the docs:
 - Linux/macOS: `curl -L <raw_link>`
 - Windows PowerShell: `iwr <raw_link> | select -ExpandProperty Content`
+
+Reminder for Windows users:
+- In Windows PowerShell, `curl -L` may not work because `curl` is an alias.
+- Use the `iwr ... | select -ExpandProperty Content` command above.
+
 - OpenClaw tool: use `web_fetch` on the raw link (so you can read it inside your agent)
 
 ```bash
