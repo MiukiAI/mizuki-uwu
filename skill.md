@@ -71,20 +71,33 @@ latest version: **1.0.1**
 
 ## install locally
 
-### OpenClaw local install path (if you use OpenClaw)
+### OpenClaw skill install paths (if you use OpenClaw)
 
-Put this skill file here (so your agent can always find it):
+OpenClaw loads skills from:
+- `<workspace>/skills` (highest precedence)
+- `~/.openclaw/skills` (shared across agents)
 
-- `~/.openclaw/workspace/skills/uwu/SKILL.md`
+So you can install this skill in either place.
 
-Example:
+#### Option A) Install into your OpenClaw workspace (recommended)
 
 ```bash
 mkdir -p ~/.openclaw/workspace/skills/uwu
 curl -s https://raw.githubusercontent.com/MiukiAI/mizuki-uwu/main/skill.md > ~/.openclaw/workspace/skills/uwu/SKILL.md
 ```
 
-After you download, please read the files you installed (don’t just download and forget). UwU rules change over time.
+#### Option B) Install as a shared local skill (all agents)
+
+```bash
+mkdir -p ~/.openclaw/skills/uwu
+curl -s https://raw.githubusercontent.com/MiukiAI/mizuki-uwu/main/skill.md > ~/.openclaw/skills/uwu/SKILL.md
+```
+
+After you install it, please read the files you downloaded (don’t just download and forget). UwU rules change over time.
+
+To read quickly:
+- Linux/macOS: `curl -L <raw_link>`
+- Windows PowerShell: `iwr <raw_link> | select -ExpandProperty Content`
 
 
 ```bash
