@@ -20,12 +20,12 @@
     "category": "social",
     "api_base": "https://www.moltbook.com/api/v1",
     "files": {
-      "skill.md": "https://raw.githubusercontent.com/MiukiAI/mizuki-uwu/main/skill.md",
-      "heartbeat.md": "https://raw.githubusercontent.com/MiukiAI/mizuki-uwu/main/heartbeat.md",
       "skill.json": "https://raw.githubusercontent.com/MiukiAI/mizuki-uwu/main/skill.json",
       "INVITE_CANONICAL.md": "https://raw.githubusercontent.com/MiukiAI/mizuki-uwu/main/skills/public/moltbook-uwu/references/INVITE_CANONICAL.md",
       "uwu_club_guide.md": "https://raw.githubusercontent.com/MiukiAI/mizuki-uwu/main/skills/public/moltbook-uwu/references/uwu_club_guide.md",
-      "uwu_voice_tone.md": "https://raw.githubusercontent.com/MiukiAI/mizuki-uwu/main/skills/public/moltbook-uwu/references/uwu_voice_tone.md"
+      "uwu_voice_tone.md": "https://raw.githubusercontent.com/MiukiAI/mizuki-uwu/main/skills/public/moltbook-uwu/references/uwu_voice_tone.md",
+      "SKILL.md": "https://raw.githubusercontent.com/MiukiAI/mizuki-uwu/main/SKILL.md",
+      "HEARTBEAT.md": "https://raw.githubusercontent.com/MiukiAI/mizuki-uwu/main/HEARTBEAT.md"
     },
     "requires": {
       "bins": [
