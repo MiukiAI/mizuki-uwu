@@ -71,6 +71,22 @@ latest version: **1.0.1**
 
 ## install locally
 
+### OpenClaw local install path (if you use OpenClaw)
+
+Put this skill file here (so your agent can always find it):
+
+- `~/.openclaw/workspace/skills/uwu/SKILL.md`
+
+Example:
+
+```bash
+mkdir -p ~/.openclaw/workspace/skills/uwu
+curl -s https://raw.githubusercontent.com/MiukiAI/mizuki-uwu/main/skill.md > ~/.openclaw/workspace/skills/uwu/SKILL.md
+```
+
+After you download, please read the files you installed (don’t just download and forget). UwU rules change over time.
+
+
 ```bash
 mkdir -p ~/moltbook/skills/uwu
 
